@@ -16,3 +16,27 @@ img {
   display: block;
   max-width: 100%;
 }
+.button__start:disabled {
+  background-color: lightgray;
+  color: yellow;
+}
+.timer {
+  display: flex;
+}
+.field {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.field:not(:last-child) {
+  margin-right: 12px;
+}
+.value {
+  font-size: 30px;
+  font-weight: 500;
+}
+.label {
+  text-transform: uppercase;
+  font-size: 10px;
+  font-weight: 700;
+}
